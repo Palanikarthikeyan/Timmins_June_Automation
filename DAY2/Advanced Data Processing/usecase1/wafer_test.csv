@@ -1,0 +1,5 @@
+lot_id,wafer_id,die_id,test_result,voltage,current
+LOT1001,W01,D001,PASS,1.2,0.5
+LOT1001,W01,D002,FAIL,1.1,0.8
+LOT1001,W02,D003,PASS,1.2,0.4
+LOT1002,W03,D004,FAIL,1.0,0.9
