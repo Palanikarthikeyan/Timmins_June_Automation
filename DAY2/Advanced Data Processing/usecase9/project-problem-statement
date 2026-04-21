@@ -1,0 +1,88 @@
+Problem Statement: Telecom Network Anomaly Detection
+Objective
+Design and implement an automated data processing system that continuously monitors telecom network performance metrics and detects anomalies in near real-time to ensure service reliability and quality.
+
+Background
+==============
+Telecom operators like Airtel, Jio, and Vodafone Idea manage thousands of network towers and infrastructure components.
+
+Each tower generates continuous data such as:
+Latency (network delay)
+Packet loss (data reliability)
+Throughput (data speed)
+
+Unexpected deviations in these metrics can indicate:
+Network congestion
+Hardware failures
+Signal degradation
+Service outages
+
+Problem
+Manual monitoring of such large-scale data is:
+Not scalable
+Error-prone
+Slow to react
+
+There is a need for an automated system that can:
+Process raw telecom data (CSV, JSON, logs)
+Detect abnormal patterns (anomalies)
+Generate actionable reports
+Enable faster decision-making
+
+
+Key Requirements
+------------------
+1. Data Ingestion
+Read telecom KPI data from:
+CSV files
+JSON APIs
+Log files
+
+2. Data Processing
+Clean and normalize inconsistent data
+Handle missing or noisy values
+Convert raw logs into structured format
+
+3. Feature Engineering
+Extract meaningful metrics:
+Average latency per tower
+Packet loss trends
+Throughput distribution
+
+4. Anomaly Detection
+Identify unusual patterns using:
+Statistical thresholds (rule-based)
+Machine learning models (e.g., Isolation Forest)
+
+5. Output Generation
+Produce:
+Structured reports (CSV/JSON)
+Summary dashboards
+Alerts for anomalies
+
+6. Automation
+Run the pipeline:
+Periodically (cron jobs)
+Or in real-time (streaming systems)
+
+Expected Output
+List of anomalies with timestamps
+Tower-wise health status
+Aggregated performance metrics
+Final report for operations team
+
+Success Criteria
+Detect anomalies with high accuracy
+Reduce detection time from hours → seconds/minutes
+Enable proactive network maintenance
+Improve overall Quality of Service (QoS)
+
+Real-World Impact
+This system helps telecom companies:
+Prevent outages before customers notice
+Optimize network performance
+Reduce operational costs
+Improve customer experience
+
+One-Line Summary
+Build an automated pipeline that transforms raw telecom data into actionable insights by detecting network anomalies efficiently.
