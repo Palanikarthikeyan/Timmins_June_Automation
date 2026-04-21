@@ -1,0 +1,5 @@
+[
+  {"tower_id": "T1", "latency": 20, "packet_loss": 0.1},
+  {"tower_id": "T1", "latency": 30, "packet_loss": 0.2},
+  {"tower_id": "T2", "latency": 50, "packet_loss": 0.5}
+]
