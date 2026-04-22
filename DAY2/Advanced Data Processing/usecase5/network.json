@@ -1,5 +1,26 @@
 [
-  {"tower_id": "T1", "latency": 20, "packet_loss": 0.1},
-  {"tower_id": "T1", "latency": 30, "packet_loss": 0.2},
-  {"tower_id": "T2", "latency": 50, "packet_loss": 0.5}
+  {"tower_id": "T1", "timestamp": "2026-04-20 10:00", "latency": 20, "packet_loss": 0.1},
+  {"tower_id": "T1", "timestamp": "2026-04-20 11:00", "latency": 25, "packet_loss": 0.15},
+  {"tower_id": "T1", "timestamp": "2026-04-20 12:00", "latency": 30, "packet_loss": 0.2},
+  {"tower_id": "T1", "timestamp": "2026-04-20 13:00", "latency": 28, "packet_loss": 0.18},
+
+  {"tower_id": "T2", "timestamp": "2026-04-20 10:00", "latency": 50, "packet_loss": 0.5},
+  {"tower_id": "T2", "timestamp": "2026-04-20 11:00", "latency": 55, "packet_loss": 0.6},
+  {"tower_id": "T2", "timestamp": "2026-04-20 12:00", "latency": 60, "packet_loss": 0.7},
+  {"tower_id": "T2", "timestamp": "2026-04-20 13:00", "latency": 58, "packet_loss": 0.65},
+
+  {"tower_id": "T3", "timestamp": "2026-04-20 10:00", "latency": 15, "packet_loss": 0.05},
+  {"tower_id": "T3", "timestamp": "2026-04-20 11:00", "latency": 18, "packet_loss": 0.08},
+  {"tower_id": "T3", "timestamp": "2026-04-20 12:00", "latency": 22, "packet_loss": 0.1},
+  {"tower_id": "T3", "timestamp": "2026-04-20 13:00", "latency": 20, "packet_loss": 0.09},
+
+  {"tower_id": "T4", "timestamp": "2026-04-20 10:00", "latency": 70, "packet_loss": 1.2},
+  {"tower_id": "T4", "timestamp": "2026-04-20 11:00", "latency": 75, "packet_loss": 1.5},
+  {"tower_id": "T4", "timestamp": "2026-04-20 12:00", "latency": 80, "packet_loss": 1.8},
+  {"tower_id": "T4", "timestamp": "2026-04-20 13:00", "latency": 78, "packet_loss": 1.6},
+
+  {"tower_id": "T5", "timestamp": "2026-04-20 10:00", "latency": 35, "packet_loss": 0.3},
+  {"tower_id": "T5", "timestamp": "2026-04-20 11:00", "latency": 38, "packet_loss": 0.35},
+  {"tower_id": "T5", "timestamp": "2026-04-20 12:00", "latency": 40, "packet_loss": 0.4},
+  {"tower_id": "T5", "timestamp": "2026-04-20 13:00", "latency": 37, "packet_loss": 0.33}
 ]
