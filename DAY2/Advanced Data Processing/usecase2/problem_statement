@@ -1,0 +1,13 @@
+ 1. Problem Statement
+==========================
+Different machines produce sensor data in different units, e.g.:
+
+Temperature → °C, °F, Kelvin
+Pressure → Pa, kPa, bar
+Vibration → mm/s, µm/s
+
+Goal: Normalize all values into standard units
+===============================================
+Temperature → Celsius (°C)
+Pressure → Pascal (Pa)
+Vibration → mm/s
