@@ -1,0 +1,10 @@
+machine_id,process,temperature,temp_unit,pressure,pressure_unit,vibration,vibration_unit
+M01,Etching,75,C,101325,Pa,5,mm/s
+M02,Deposition,167,F,14.7,psi,5000,um/s
+M03,Lithography,300,K,1.2,bar,4,mm/s
+M04,Etching,80,C,100, kPa,4500,um/s
+M05,Deposition,140,F,0.9,bar,6,mm/s
+M06,Lithography,290,K,101325,Pa,5500,um/s
+M07,Etching,77,C,15,psi,5.5,mm/s
+M08,Deposition,160,F,110, kPa,4800,um/s
+M09,Lithography,305,K,1.1,bar,4.5,mm/s
