@@ -1,0 +1,26 @@
+1. Batch Processing
+Reads all CSV files in logs/
+Processes them one by one
+
+2. Error Handling
+Missing column → handled
+
+File read error → logged
+ 3. Directory Monitoring
+
+Continuously watches for new files
+Processes automatically
+ 4. Alert Generation
+Creates alert CSV if anomalies found
+ 5. Logging
+Writes all events to automation.log
+
+Example Output
+alerts/alerts_kpi_10.csv
+timestamp,tower_id,latency_ms,packet_loss
+2026-04-20 10:00,T2,80,1.5
+
+Hence
+We built an automated telecom workflow that batch processes KPI logs, monitors directories in real-time, detects anomalies, logs errors, and generates alert reports with optional email notifications
+
+
