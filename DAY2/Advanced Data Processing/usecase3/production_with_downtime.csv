@@ -1,0 +1,9 @@
+machine_id,shift,date,uptime_hours,downtime_hours,chips_processed
+M01,Day,2026-04-20,7,1,500
+M01,Night,2026-04-20,6.5,1.5,450
+M02,Day,2026-04-20,7.5,0.5,600
+M02,Night,2026-04-20,7,1,550
+M03,Day,2026-04-20,8,0,700
+M03,Night,2026-04-20,7,1,650
+M04,Day,2026-04-20,6,2,480
+M04,Night,2026-04-20,6.5,1.5,500
