@@ -1,0 +1,11 @@
+machine_id,shift,date,process,lot_id,chips_processed,good_chips,defective_chips
+M01,Day,2026-04-18,Etching,LOT2001,480,460,20
+M01,Night,2026-04-18,Etching,LOT2002,460,440,20
+M01,Day,2026-04-19,Deposition,LOT2003,500,470,30
+M02,Day,2026-04-18,Lithography,LOT2004,620,600,20
+M02,Night,2026-04-18,Lithography,LOT2005,610,580,30
+M02,Day,2026-04-19,Etching,LOT2006,590,560,30
+M03,Day,2026-04-18,Deposition,LOT2007,700,670,30
+M03,Night,2026-04-18,Deposition,LOT2008,680,650,30
+M03,Day,2026-04-19,Lithography,LOT2009,720,700,20
+M04,Night,2026-04-19,Etching,LOT2010,530,500,30
