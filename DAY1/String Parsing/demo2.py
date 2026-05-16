@@ -5,7 +5,7 @@ Print only:
 ERROR logs
 component names
 '''
-fobj = open('events_logs.log')
+fobj = open('event_logs.log')
 logs = fobj.readlines()
 fobj.close()
 
