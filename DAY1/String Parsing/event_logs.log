@@ -1,0 +1,5 @@
+2026-05-16 09:01:11 ERROR Motor-1 Overcurrent detected
+2026-05-16 09:02:45 INFO Conveyor-2 Running normally
+2026-05-16 09:03:18 WARNING Sensor-7 Temperature rising
+2026-05-16 09:04:52 ERROR RobotArm-3 Communication timeout
+2026-05-16 09:05:33 INFO PLC-5 Backup completed
