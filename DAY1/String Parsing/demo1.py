@@ -8,7 +8,7 @@ component
 message
 '''
 # Read Sample logs
-fobj = open('events_logs.log')
+fobj = open('event_logs.log')
 logs = fobj.readlines()
 fobj.close()
 
