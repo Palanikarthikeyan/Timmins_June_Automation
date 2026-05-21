@@ -1,0 +1,5 @@
+{
+    "log_file": "logs/plc_alarm.log",
+    "report_file": "reports/summary.txt",
+    "log_level": "INFO"
+}
