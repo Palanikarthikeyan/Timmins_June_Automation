@@ -1,0 +1,22 @@
+Engineering Automation Case Study
+Use Case: Automated Telecom Network Monitoring & Alerting System
+Industry Scenario
+
+A telecom company operates thousands of network towers across multiple cities.
+
+Every tower continuously generates:
+
+CPU utilization logs
+Network traffic logs
+Signal strength metrics
+Hardware temperature alerts
+Service outage alarms
+
+Previously, engineers manually checked logs and dashboards, causing:
+
+Delayed incident detection
+Missed outages
+Long downtime
+Poor customer experience
+
+The company decides to build an automated monitoring and alerting system using Python.
