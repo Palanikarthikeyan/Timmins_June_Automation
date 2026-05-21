@@ -1,0 +1,27 @@
+Use Case: Production-Ready PLC Log Monitoring Automation System
+Industry Scenario
+
+A manufacturing company has multiple PLC-controlled machines generating alarm logs continuously.
+
+Initially, engineers created a simple Python script to read alarms from:
+
+plc_alarm.log
+
+But over time, problems appeared:
+
+Hardcoded file paths
+Difficult to maintain
+No logging system
+No configuration support
+No reusable modules
+Difficult for teams to collaborate
+
+Project Goal
+Build a professional automation system that:
+Reads PLC alarm logs
+Detects ERROR alarms
+Generates structured reports
+Uses configuration files
+Uses reusable modules
+Implements logging
+Produces maintainable code
