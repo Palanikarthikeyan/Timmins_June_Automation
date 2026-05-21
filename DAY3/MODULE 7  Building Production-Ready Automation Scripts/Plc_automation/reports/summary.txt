@@ -1,0 +1,12 @@
+PLC AUTOMATION REPORT
+========================
+
+Total Logs     : 7
+ERROR Count    : 3
+WARNING Count  : 2
+
+Equipment Activity
+MOTOR_01 --> 2 events
+TEMP_SENSOR_02 --> 2 events
+CONVEYOR_03 --> 1 events
+PUMP_01 --> 2 events
